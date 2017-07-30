@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <com.sky.fish.LoginButton
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:text="重置"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
